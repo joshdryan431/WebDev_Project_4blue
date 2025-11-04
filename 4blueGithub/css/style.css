@@ -61,7 +61,13 @@ header {
 h1, h2, h3 {
   text-align:center;
   color: #2d3e50;
-  font-weight: 700;
+  font-weight: 750;
+}
+
+body p {
+  color : #555;
+  line-height : 1.6;
+  font-size : 1.6rem;
 }
 
 section {
@@ -214,4 +220,5 @@ footer {
 @media (max-width: 560px) {
   .faq-section { padding: 1rem; }
 }
+
 
