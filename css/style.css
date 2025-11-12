@@ -61,7 +61,13 @@ header {
 h1, h2, h3 {
   text-align:center;
   color: #2d3e50;
-  font-weight: 700;
+  font-weight: 750;
+}
+
+body p {
+  color : #555;
+  line-height : 1.6;
+  font-size : 1.6rem;
 }
 
 section {
@@ -167,26 +173,28 @@ footer {
   width:100%;
 }
 
- .faq-section { 
+/* FAQ specific styles (moved from faq.html) */
+.faq-section { 
   max-width: 900px; 
   margin: 2.5rem auto; 
-  padding: 1.5rem; 
+  padding: 1.6rem;  
   background: #ffffff; 
   border-radius: 10px; 
   box-shadow: 0 6px 18px rgba(31,60,136,0.08);
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #1a1a1a;
 }
+
 .faq-heading {
   text-align: center;
   color: #1f3c88;
-  font-weight: 700;
+  font-weight: 750;
   margin-bottom: 0.25rem;
 }
 .faq-sub {
   text-align: center;
   color: #666;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.6rem;
 }
 .faq-list details {
   margin: 0.75rem 0;
@@ -197,19 +205,21 @@ footer {
 }
 .faq-list summary {
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 750;
   color: #1f3c88;
   list-style: none;
   outline: none;
+  font-size: 1.4rem;
 }
 .faq-list summary::-webkit-details-marker { display: none; }
 .faq-list .answer {
   margin-top: 0.6rem;
   color: #333;
   line-height: 1.55;
-  font-size: 0.98rem;
+  font-size: 1.4rem;
 }
 /* Small responsive tweak */
 @media (max-width: 560px) {
-  .faq-section { padding: 1rem; }
+  .faq-section { padding: 1.2rem; }
 }
+
