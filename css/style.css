@@ -309,5 +309,45 @@ figcaption {
   margin: 1rem auto;
   border-radius: 6px;
 }
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;  
+}
+
+.contact-form label {
+  font-size: 1.5rem;   
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  font-size: 1.4rem; 
+}
+
+.contact-form textarea {
+  min-height: 150px;
+}
+
+.contact-form button {
+  padding: 1rem;
+  background: #2d3e50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background: #41506b;
+}
 
 
